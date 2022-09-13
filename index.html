@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Stardos+Stencil:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Mission 2</title>
+    <script defer src="script.js"></script>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <header id="header">
+      <h1 class="title">Mission 2: HTML + CSS + JS</h1>
+      <img
+        id="img"
+        src="header.jpg"
+        alt="HTML5 Icon"
+        style="width: 300px; height: 300px"
+      />
+      <h3 class="subtitle">A brief look at the history of the Mouse.</h3>
+    </header>
+
+    <div class="links">
+      <a
+        class="link"
+        href="https://www.linkedin.com/in/guillermo-domber-77979023b/"
+        target="_blank"
+        >LinkedIn</a
+      >
+      <a class="link" href="mailto:guillermo.domber@gmail.com">Contact</a>
+    </div>
+    <div class="body">
+      <!-- <h1 id="bodyTitle">Title</h1>
+      <h2 id="bodySubtitle">Subtitle</h2> -->
+
+      <div id="blockquotes">
+        <div id="blockquotes1">
+          <h2 id="content1">
+            The first known mouse was created in the early 1970s by Douglas
+            Engelbart. Engelbart was working on a project at Xerox PARC (Palo
+            Alto Research Center) that involved creating a computer that could
+            be used to manipulate objects on a screen. The device he created was
+            called a "mouse" because it resembled a small rodent.
+          </h2>
+          <img
+            id="img1"
+            src="mouse1.jpg"
+            alt="HTML5 Icon"
+            style="width: 400px; height: 400px"
+          />
+          <h3 id="quote1">Inventor Douglas Engelbart holding the first computer mouse, showing the wheels that make contact with the working surface</h3>
+        </div>
+
+        <div
+          style="background-color: rgba(249, 248, 248, 0.133)"
+          id="blockquotes1"
+        >
+          <h2 id="content1">
+            The mouse quickly became a standard input device for personal
+            computers. In 1981, Microsoft released the first version of its
+            Windows operating system, which included support for the mouse.
+            Apple released the first Macintosh computer in 1984, which also
+            featured a mouse.
+          </h2>
+          <img
+            id="img1"
+            src="mouse2.jpg"
+            alt="HTML5 Icon"
+            style="width: 400px; height: 400px"
+          />
+          <h3 id="quote1">Microsoft Mouse 1.0 - Floppy Disk
+          </h3>
+        </div>
+
+        <div id="blockquotes1">
+          <h2 id="content1">
+            Today, the mouse is an essential part of most personal computers. It
+            is used to point and click on objects on the screen, making it a
+            very versatile and user-friendly input device.
+          </h2>
+          <img
+            id="img1"
+            src="mouse3.jpg"
+            alt="HTML5 Icon"
+            style="width: 400px; height: 400px"
+          />
+          <h3 id="quote1">Python Leather Mouse</h3>
+        </div>
+      </div>
+      <div id="game">
+        <p>Test your skills:</p>
+
+        <label
+          >How many times can you 'click' in 10 secconds?
+          <span id="counter">0</span></label
+        >
+        <button id="click" onclick="incrementByOne()">Click!</button>
+        <button id="reset" onclick="decrementByOne()">Reset</button>
+        <br /><br />
+        <label id="status"
+          >Press the button to start the countdown ---------></label
+        >
+        <button id="button" onclick="countDown()">Start</button>
+
+        <div id="some_div"></div>
+      </div>
+    </div>
+    <footer id="footer">
+      <section>
+        <a href="#header">Go to top</a>
+        <a href="mailto:guillermo.domber@gmail.com">Contact</a>
+      </section>
+      <p>&copy; 2022 by Guillermo Domber.</p>
+    </footer>
+  </body>
+</html>
